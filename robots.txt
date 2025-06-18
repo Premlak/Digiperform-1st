@@ -1,0 +1,12 @@
+User-agent: *
+# Block back‑end folders and internal files
+Disallow: /admin/
+Disallow: /subAdmin/
+Disallow: /assets/
+Disallow: /db.php
+
+# Allow everything else
+Allow: /
+
+# Point to your sitemap
+Sitemap: https://mycareeridea.com/sitemap.xml
